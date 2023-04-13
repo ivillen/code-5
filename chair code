@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <!--
     Armchair:
     - Sketchfab: https://sketchfab.com/3d-models/my-armchair-like-please-if-you-download-it-5af72c135f7743f79a006cd4b2cec2dd#download
@@ -14,7 +16,7 @@
   <body>
     <a-scene>
       <a-assets timeout="5000">
-        <a-asset-item id="chair" src="chair.glb"></a-asset-item>
+        <a-asset-item id="chair" src="Chair.glb"></a-asset-item>
       </a-assets>
       <a-entity class="object"
         geometry="primitive: box; width: 0.2; height: 0.02; depth: 0.02"
